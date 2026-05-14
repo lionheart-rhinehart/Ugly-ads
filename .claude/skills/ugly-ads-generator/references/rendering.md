@@ -187,30 +187,17 @@ Order matters. A typical build is:
 
 ## Color reference
 
-Pre-baked palettes for the three built-in aesthetics:
+The skill uses one aesthetic — **course-marketer** — with five built-in gradient pairs:
 
-**Clickbait**
-- Accent: `#FF2D87` (hot pink), `#C4FF1E` (lime), `#00B7FF` (electric blue)
-- Background: `#FFFFFF` or `#FFE600` (yellow)
-- Text: `#000000`
+- Purple `#7C3AED` → Orange `#F97316` (energetic, modern)
+- Deep blue `#1E40AF` → Magenta `#EC4899` (tech / SaaS)
+- Teal `#0D9488` → Lime `#84CC16` (wellness / fitness / sports)
+- Crimson `#B91C1C` → Amber `#D97706` (urgency / financial)
+- Indigo `#4338CA` → Hot pink `#DB2777` (creative / agency)
 
-**Used-car-lot**
-- Accent: `#E60000` (red), `#FFD800` (yellow)
-- Trust: `#003DA5` (blue)
-- Background: `#FFFFFF` or `#FFE600`
-- Text: `#000000`, callouts in `#FFFFFF` on red
+Foreground: `#FFFFFF` for the hook word & offer stack, `#0F172A` (or `rgba(255,255,255,0.55)`) for the punchline qualifier. Pill is solid `#FFFFFF` with `#0F172A` text.
 
-**GeoCities**
-- Bright primaries on black: `#FF0000`, `#FF8000`, `#FFD800`, `#00CC00`, `#00B7FF`, `#7F00FF`, `#FF00FF`
-- Background: `#000000`, `#000033`, or sepia `#F4ECD8`
-
-**Course-marketer (gradient pairs)**
-- Purple `#7C3AED` → Orange `#F97316`
-- Deep blue `#1E40AF` → Magenta `#EC4899`
-- Teal `#0D9488` → Lime `#84CC16`
-- Crimson `#B91C1C` → Amber `#D97706`
-- Indigo `#4338CA` → Hot pink `#DB2777`
-- Foreground: `#FFFFFF` for hook & offer, `#0F172A` (or `rgba(255,255,255,0.55)`) for the punchline qualifier
+Gradient always runs top-left → bottom-right (135°).
 
 ## Running the renderer
 
