@@ -55,6 +55,7 @@ For each request, generate three variants using three different aesthetics. This
 - **`clickbait-popup`** — Mobile-popup energy. Big "YOU WON'T BELIEVE" headline, fake-X-button vibes, urgency banner across the top, "tap here" CTA. Color palette: lime green, hot pink, electric blue on white or yellow.
 - **`used-car-lot`** — Screaming-spokesman energy. ALL CAPS hook, starburst with the price, "BUT WAIT" mid-graphic, exclamation points, phone number huge at the bottom. Color palette: red/yellow/black, sometimes with a strip of American-flag stripes.
 - **`geocities-web1`** — 90s web aesthetic. Comic Sans, marquee-style banner, "under construction" gif energy, tiled background, visitor counter, animated-gif-as-static-PNG vibes. Color palette: neon on black, or rainbow gradients.
+- **`course-marketer`** — Audience-callout-over-gradient aesthetic. White rounded pill at top names the audience ("AGENCY OWNERS:"), one massive hook word (FREE/NEW/STOP), 2-line offer stack, small muted punchline qualifier ("THAT DOESN'T SUCK"). Diagonal two-color gradient background. Best for courses, trainings, lead magnets, coaching offers.
 
 Each template in `templates/` has a `template.md` describing its visual rules, color palettes, and typographic patterns. **Read the relevant template.md before generating** — they encode the actual rules each aesthetic follows.
 

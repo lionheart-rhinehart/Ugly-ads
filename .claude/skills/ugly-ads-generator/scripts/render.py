@@ -222,6 +222,32 @@ def draw_starburst(draw, layer, canvas_size):
             draw.line([a, b], fill=outline, width=outline_width)
 
 
+def draw_gradient(image, layer, canvas_size):
+    """Linear gradient across the canvas at a given angle (degrees, 0=right, 90=down, 135=top-left-to-bottom-right)."""
+    import math
+
+    start = parse_color(layer.get("start_color", "#7C3AED"))
+    end = parse_color(layer.get("end_color", "#F97316"))
+    angle = math.radians(layer.get("angle", 135))
+
+    cw, ch = canvas_size
+    dx, dy = math.cos(angle), math.sin(angle)
+
+    corners = [(0, 0), (cw, 0), (0, ch), (cw, ch)]
+    projections = [x * dx + y * dy for x, y in corners]
+    p_min, p_max = min(projections), max(projections)
+    span = p_max - p_min if p_max != p_min else 1.0
+
+    px = image.load()
+    for y in range(ch):
+        for x in range(cw):
+            t = ((x * dx + y * dy) - p_min) / span
+            r = int(start[0] + (end[0] - start[0]) * t)
+            g = int(start[1] + (end[1] - start[1]) * t)
+            b = int(start[2] + (end[2] - start[2]) * t)
+            px[x, y] = (r, g, b)
+
+
 def draw_diagonal_stripes(draw, layer, canvas_size):
     cw, ch = canvas_size
     stripe_w = layer.get("stripe_width", 40)
@@ -333,6 +359,8 @@ def render(config: dict, output_path: str):
         kind = layer.get("type")
         if kind == "tiled_background":
             draw_tiled_background(draw, image, layer, (width, height))
+        elif kind == "gradient":
+            draw_gradient(image, layer, (width, height))
         elif kind == "diagonal_stripes":
             draw_diagonal_stripes(draw, layer, (width, height))
         elif kind == "rectangle":

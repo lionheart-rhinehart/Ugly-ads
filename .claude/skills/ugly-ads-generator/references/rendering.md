@@ -124,6 +124,20 @@ Diagonal banner across a top corner.
 }
 ```
 
+### `gradient`
+Linear two-color gradient across the canvas. Place as the first layer for a gradient background.
+
+```json
+{
+  "type": "gradient",
+  "start_color": "#7C3AED",
+  "end_color": "#F97316",
+  "angle": 135
+}
+```
+
+Angle in degrees: `0` = left→right, `90` = top→bottom, `135` = top-left→bottom-right (the course-marketer default), `45` = bottom-left→top-right. Renders pixel-by-pixel in pure Python — adds ~1s at 1080×1080.
+
 ### `diagonal_stripes`
 Full-canvas diagonal stripe background. Place as the first layer for a striped backdrop.
 
@@ -189,6 +203,14 @@ Pre-baked palettes for the three built-in aesthetics:
 **GeoCities**
 - Bright primaries on black: `#FF0000`, `#FF8000`, `#FFD800`, `#00CC00`, `#00B7FF`, `#7F00FF`, `#FF00FF`
 - Background: `#000000`, `#000033`, or sepia `#F4ECD8`
+
+**Course-marketer (gradient pairs)**
+- Purple `#7C3AED` → Orange `#F97316`
+- Deep blue `#1E40AF` → Magenta `#EC4899`
+- Teal `#0D9488` → Lime `#84CC16`
+- Crimson `#B91C1C` → Amber `#D97706`
+- Indigo `#4338CA` → Hot pink `#DB2777`
+- Foreground: `#FFFFFF` for hook & offer, `#0F172A` (or `rgba(255,255,255,0.55)`) for the punchline qualifier
 
 ## Running the renderer
 
