@@ -1,0 +1,24 @@
+{
+  "width": 1080,
+  "height": 1080,
+  "bg": "#FFE600",
+  "layers": [
+    { "type": "rectangle", "x": 0, "y": 0, "width": 1080, "height": 80, "fill": "#FF2D87" },
+    { "type": "text", "text": "⚠ YOUR KID'S SOCCER COACH WON'T SAY THIS ⚠", "font": "arial_black", "size": 36, "color": "#FFFFFF", "x": 540, "y": 18, "align": "center" },
+
+    { "type": "text", "text": "WHAT TEAM", "font": "arial_black", "size": 130, "color": "#000000", "x": 540, "y": 130, "align": "center" },
+    { "type": "text", "text": "PRACTICE", "font": "arial_black", "size": 130, "color": "#FF2D87", "x": 540, "y": 270, "align": "center", "stroke_width": 4, "stroke_color": "#000000" },
+    { "type": "text", "text": "WON'T COVER", "font": "arial_black", "size": 130, "color": "#000000", "x": 540, "y": 410, "align": "center" },
+
+    { "type": "text", "text": "Coaches manage 15-20 players. They can't make YOUR kid faster, stronger, sharper.", "font": "arial", "size": 30, "color": "#000000", "x": 540, "y": 580, "align": "center", "max_width": 950 },
+
+    { "type": "text", "text": "✔  50% soccer skill, 50% athletic development", "font": "arial_black", "size": 32, "color": "#000000", "x": 90, "y": 690, "align": "left" },
+    { "type": "text", "text": "✔  Speed, strength + explosiveness training", "font": "arial_black", "size": 32, "color": "#000000", "x": 90, "y": 740, "align": "left" },
+    { "type": "text", "text": "✔  Built around the player YOUR kid wants to be", "font": "arial_black", "size": 32, "color": "#000000", "x": 90, "y": 790, "align": "left" },
+
+    { "type": "rectangle", "x": 80, "y": 870, "width": 920, "height": 110, "fill": "#FF2D87", "outline": "#000000", "outline_width": 5, "radius": 18 },
+    { "type": "text", "text": "TAP → BOOK FREE GAMEPLAN", "font": "arial_black", "size": 44, "color": "#FFFFFF", "x": 540, "y": 902, "align": "center", "stroke_width": 2, "stroke_color": "#000000" },
+
+    { "type": "text", "text": "Southern Maine Athlete Academy  ★★★★★", "font": "arial", "size": 22, "color": "#000000", "x": 540, "y": 1010, "align": "center" }
+  ]
+}

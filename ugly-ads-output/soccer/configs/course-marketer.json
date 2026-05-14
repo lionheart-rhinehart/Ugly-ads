@@ -1,0 +1,18 @@
+{
+  "width": 1080,
+  "height": 1080,
+  "bg": "#0D9488",
+  "layers": [
+    { "type": "gradient", "start_color": "#0D9488", "end_color": "#84CC16", "angle": 135 },
+
+    { "type": "rectangle", "x": 270, "y": 90, "width": 540, "height": 78, "fill": "#FFFFFF", "radius": 39 },
+    { "type": "text", "text": "SOCCER PARENTS:", "font": "arial_black", "size": 36, "color": "#0F172A", "x": 540, "y": 110, "align": "center" },
+
+    { "type": "text", "text": "FREE", "font": "arial_black", "size": 280, "color": "#FFFFFF", "x": 540, "y": 260, "align": "center" },
+
+    { "type": "text", "text": "1:1 GAMEPLAN", "font": "arial_black", "size": 96, "color": "#FFFFFF", "x": 540, "y": 660, "align": "center" },
+    { "type": "text", "text": "SESSION", "font": "arial_black", "size": 96, "color": "#FFFFFF", "x": 540, "y": 765, "align": "center" },
+
+    { "type": "text", "text": "FOR KIDS WHO WANT TO STAND OUT", "font": "arial_black", "size": 36, "color": "#0F172A", "x": 540, "y": 920, "align": "center" }
+  ]
+}

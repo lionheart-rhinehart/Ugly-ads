@@ -1,0 +1,32 @@
+{
+  "width": 1080,
+  "height": 1080,
+  "bg": "#000033",
+  "layers": [
+    { "type": "tiled_background", "bg": "#000033", "stars": 320, "seed": 11 },
+
+    { "type": "rectangle", "x": 40, "y": 30, "width": 1000, "height": 90, "fill": "#000000", "outline": "#FF00FF", "outline_width": 6 },
+    { "type": "text", "text": "★ ~ * ~ COACH RHINEHART'S CORNER ~ * ~ ★", "font": "comic", "size": 38, "color": "#00FFFF", "x": 540, "y": 55, "align": "center" },
+
+    { "type": "rainbow_text", "text": "TALENT ALONE", "font": "comic", "size": 88, "x": 540, "y": 160, "align": "center", "stroke_width": 4, "stroke_color": "#000000" },
+    { "type": "rainbow_text", "text": "DOESN'T GET", "font": "comic", "size": 88, "x": 540, "y": 270, "align": "center", "stroke_width": 4, "stroke_color": "#000000" },
+    { "type": "rainbow_text", "text": "PLAYING TIME!", "font": "comic", "size": 88, "x": 540, "y": 380, "align": "center", "stroke_width": 4, "stroke_color": "#000000" },
+
+    { "type": "text", "text": "~ * ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~", "font": "comic", "size": 30, "color": "#FFD800", "x": 540, "y": 510, "align": "center" },
+
+    { "type": "text", "text": "• 10 years coaching club, ODP, HS & college!!!", "font": "comic", "size": 30, "color": "#00FF00", "x": 90, "y": 570, "align": "left" },
+    { "type": "text", "text": "• Watched hundreds of talented kids ride the bench :(", "font": "comic", "size": 30, "color": "#FF69B4", "x": 90, "y": 620, "align": "left" },
+    { "type": "text", "text": "• The ones who broke thru worked OUTSIDE practice!", "font": "comic", "size": 30, "color": "#FFD800", "x": 90, "y": 670, "align": "left" },
+    { "type": "text", "text": "• Skill + athleticism + confidence = ready when called", "font": "comic", "size": 30, "color": "#00FFFF", "x": 90, "y": 720, "align": "left" },
+
+    { "type": "text", "text": "~ * ~ * ~ * ~ * ~ * ~ * ~ * ~ * ~", "font": "comic", "size": 30, "color": "#FFD800", "x": 540, "y": 790, "align": "center" },
+
+    { "type": "rectangle", "x": 130, "y": 840, "width": 820, "height": 90, "fill": "#000000", "outline": "#00FFFF", "outline_width": 4 },
+    { "type": "text", "text": "[ Click here → FREE 1:1 GAMEPLAN SESSION! ]", "font": "comic", "size": 36, "color": "#00B7FF", "x": 540, "y": 868, "align": "center" },
+
+    { "type": "rectangle", "x": 80, "y": 970, "width": 320, "height": 60, "fill": "#000000", "outline": "#00FF00", "outline_width": 3 },
+    { "type": "text", "text": "VISITORS: 00432", "font": "comic", "size": 26, "color": "#00FF00", "x": 240, "y": 988, "align": "center" },
+
+    { "type": "text", "text": "© 2026 · S. Maine Athlete Academy · made with love", "font": "comic", "size": 22, "color": "#FFFFFF", "x": 740, "y": 998, "align": "center" }
+  ]
+}
